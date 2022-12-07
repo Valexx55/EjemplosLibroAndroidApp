@@ -1,0 +1,84 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apendiceA.ActividadBotones">
+
+    <TextView android:id="@+id/LblMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <Button android:id="@+id/BtnBotonSimple"
+        android:text="CLICK" android:onClick="botonTocado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LblMensaje" />
+
+    <Button android:id="@+id/BtnBotonMasImagen"
+        android:text="CLICK" android:onClick="botonTocado"
+        android:drawableLeft="@drawable/ic_estrella"
+        android:drawablePadding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnBotonSimple" />
+
+    <ToggleButton android:id="@+id/BtnToggle"
+        android:textOn="ON" android:onClick="botonTocado"
+        android:textOff="OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnBotonMasImagen" />
+
+    <Switch android:id="@+id/BtnSwitch"
+        android:textOn="ON" android:onClick="botonTocado"
+        android:textOff="OFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BtnToggle"/>
+
+    <ImageButton android:id="@+id/BtnImagen" android:onClick="botonTocado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/icono_ok"
+        android:src="@drawable/ic_estrella"
+        android:layout_below="@id/BtnSwitch" />
+
+    <ToggleButton android:id="@+id/BtnPersonalizado"
+        android:textOn="ON"
+        android:textOff="OFF" android:onClick="botonTocado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toogle_style"
+        android:layout_below="@id/BtnImagen" />
+
+    <LinearLayout
+        android:id="@+id/BarraBtnSinBorde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="?android:dividerVertical"
+        android:dividerPadding="6dp"
+        android:layout_below="@id/BtnPersonalizado">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="Texto de prueba"/>
+
+        <ImageButton android:id="@+id/BtnSinBorde"
+            android:onClick="botonTocado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/icono_ok"
+            android:src="@drawable/ic_estrella"
+            style="?android:borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

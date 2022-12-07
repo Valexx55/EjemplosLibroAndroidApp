@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="0px"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="15"-->
+<!--        android:orientation="vertical">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imagen_cancion"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/emoticono_risa"/>-->
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="70"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/nombre_cancion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Canción desconocida"
+                android:textSize="20sp"
+                android:gravity="start"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="30"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:id="@+id/nombre_artista"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Artista invitado"
+                android:textSize="12sp"
+                android:gravity="start|bottom"></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/icdescarga"
+            android:onClick="descargarCancion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_baseline_arrow_circle_down_24"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/icreproduccion"
+            android:onClick="reproducirCancion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_baseline_play_circle_outline_24"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+    **
+ * Gracias por adquirir "Creación de Aplicaciones con Android"
+ * <p>
+ *
+ * La colección de enlaces web referida en los videos puede encontrarla en el directorio /res/raw/enlaces_libro_android.ods
+ * en formato de una hoja de cálculo (Excel)
+ *
+ * Esta aplicación es un material complementario de la obra, por lo cual, se ve sujeto a los
+ * derechos de propiedad intelectual de la misma. Su distribución y publicación están prohibidas.
+ * <p>
+ *
+ * La tema9/ActividadMenuPrincial, está configurada como la pantalla inicial de la aplicación y carga el menú lateral
+ * que da acceso a todos los ejemplos programdos en cada vídeo.
+ * <p>
+ *
+ * Puede alterar y jugar con el código todo lo que desee. De hecho, de eso se trata y le animo a ello.
+ * Que amplíe y modifique los ejemplos a su gusto para prácticar.
+ * <p>
+ *
+ * Pero antes, está bien que mantenga una copia original, por si necesita recuperar el estado original de los ejemplos.
+ * <p>
+ *
+ * Si lo desea o necesita, puede contactar con el autor de la obra en su perfil
+ * profesional https://www.linkedin.com/in/valerianomoreno/
+ */

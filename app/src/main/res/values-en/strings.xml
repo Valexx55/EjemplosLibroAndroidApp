@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamplesBookAndroidApp</string>
+    <string name="intro_nombre">Enter name</string>
+    <string name="intro_edad">Enter age</string>
+    <string name="hombre">Man</string>
+    <string name="mujer">Woman</string>
+    <string name="mayor_edad">I am adult</string>
+    <string name="aceptar">OK</string>
+</resources>

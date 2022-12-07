@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EjemplosLibroAndroidApp</string>
+    <string name="caballito_de_mar" translatable="false">\u0048</string>
+    <string name="intro_nombre">Intro Nombre</string>
+    <string name="intro_edad">Intro Edad</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="mayor_edad">Soy mayor de edad</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="icono_ok">icono ok</string>
+    <string-array name="array_opciones_visibilidad">
+        <item>VISIBLE</item>
+        <item>INVISIBLE</item>
+        <item>GONE</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
